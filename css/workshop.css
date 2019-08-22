@@ -1,0 +1,114 @@
+
+body
+{
+  font-family: 'Montserrat', sans-serif;  
+}
+
+/* Start responsive */
+
+@media screen and (max-width: 991px)
+{
+    .navbar-dark .navbar-brand
+    {
+        font-size: 20px;
+    }
+    
+    .navbar
+    {
+        background-color: #212529;
+        padding: 15px 0px;
+    }
+    
+        .home .info p
+    {
+        font-size: 20px;
+    }
+
+    .home .info h1
+    {
+        font-size: 45px;
+    }
+
+}
+
+/* End responsive */
+
+
+
+
+/* Start navbar */
+
+.navbar-dark .navbar-brand
+{
+    color: #fed136;
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
+    transition: all 1s;
+}
+
+.navbar-dark .navbar-brand:hover
+{
+    color: #fed136;
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 1s;
+    
+}
+
+.navbar-nav .nav-item .nav-link:hover
+{
+    color: #fed136;
+}
+
+.custom-toggler
+{
+    background-color: #fed136 !important;
+    color: #fff !important;
+    font-size: 16px;
+}
+
+/* End navbar */
+
+
+
+/* Start Home */
+
+.home
+{
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 720px;
+}
+
+.home .info p
+{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.home .info h1
+{
+    font-size: 75px;
+    font-weight: 900;
+}
+
+/* End Home */
+
+
+
+/* Start Footer */
+
+.footer .copyright
+{
+    font-weight: 700;
+}
+
+/* End Footer */
